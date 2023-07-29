@@ -44,8 +44,8 @@ export const Skills = () => {
                             </h2>
 
                             <p>
-                              Et minim commodo sunt do. Ad ullamco in cillum magna aute aliquip culpa quis veniam laboris pariatur occaecat laboris. 
-                              Aliquip labore magna magna reprehenderit deserunt aliqua ullamco reprehenderit reprehenderit qui excepteur qui. 
+                            Proficient in various technologies, including React.js, JavaScript, and AWS. 
+                            Experienced in utilizing Hardhat and Open Zeppelin frameworks to create efficient and robust applications.
                             </p>
                           </div>
                   

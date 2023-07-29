@@ -21,7 +21,7 @@ export const Projects = () => {
     ];
     const project2 = [
         {
-        title: "Rocket Realty ",
+        title: "NFT Marketplace ",
         description: "Design & Development",
         imgUrl: projImg2,
         }
@@ -42,8 +42,7 @@ export const Projects = () => {
                         <h2>Projects</h2>
 
                         <p>
-                            Et minim commodo sunt do. Ad ullamco in cillum magna aute aliquip culpa quis veniam laboris pariatur occaecat laboris. 
-                            Aliquip labore magna magna reprehenderit deserunt aliqua ullamco reprehenderit reprehenderit qui excepteur qui. 
+                            Projects that aim to create a dynamic and user-friendly application using React.js, JavaScript, and Blockchain frameworks. 
                         </p>
                         <TrackVisibility>
                             {({ isVisible }) =>
@@ -75,7 +74,7 @@ export const Projects = () => {
                                                 }
                                             </Row>
                                             <Row>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                            <p>Decentralized Real Estate application designed to create a seamless property transaction, utilizing NFT technology.</p>
                                             </Row>
                                         </Tab.Pane>
 
@@ -93,7 +92,7 @@ export const Projects = () => {
                                                 }
                                             </Row>
 
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                            <p>Create, buy, and sell Nfts in this one-stop-shop marketplace.</p>
                                         </Tab.Pane>
 
                                         {/* <Tab.Pane eventKey="third">

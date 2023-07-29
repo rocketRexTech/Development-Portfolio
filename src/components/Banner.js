@@ -75,8 +75,9 @@ export const Banner = () => {
                     </h1>
 
                     <p>
-                      Et minim commodo sunt do. Ad ullamco in cillum magna aute aliquip culpa quis veniam laboris pariatur occaecat laboris. 
-                      Aliquip labore magna magna reprehenderit deserunt aliqua ullamco reprehenderit reprehenderit qui excepteur qui. 
+                    My previous work experience has allowed me to develop a deep understanding of JavaScript, React.js, Solidity, and MySql, 
+                    empowering me to craft efficient and seamless solutions for complex projects. With a keen eye for detail and 
+                    an unwavering commitment to meeting deadlines, I consistently deliver high-quality results that exceed expectations. 
                     </p>
 
                     <Link to="contact"

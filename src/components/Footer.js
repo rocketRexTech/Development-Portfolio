@@ -3,6 +3,7 @@ import { MailchimpForm } from "./MailchimpForm";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import githubIcon from '../assets/img/githubIcon.png';
 
 
 
@@ -16,7 +17,7 @@ export const Footer = () => {
                     <Col sm={6} className="text-center">
                         <div className="social-icon">
                             <a href="#"><img src={navIcon1} atl="" /></a>
-                            <a href="#"><img src={navIcon2} atl="" /></a>
+                            <a href="#"><img src={githubIcon} atl="" /></a>
                             <a href="#"><img src={navIcon3} atl="" /></a>
                         </div>
 
