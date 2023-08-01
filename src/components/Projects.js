@@ -7,6 +7,8 @@ import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import realtThumb from '../assets/img/realty-thumb.png'
+import nftThumb from '../assets/img/nft-thumb.png'
 
 
 
@@ -16,14 +18,14 @@ export const Projects = () => {
         {
         title: "Rocket Realty ",
         description: "Design & Development",
-        imgUrl: projImg1,
+        imgUrl: realtThumb,
         }
     ];
     const project2 = [
         {
         title: "NFT Marketplace ",
         description: "Design & Development",
-        imgUrl: projImg2,
+        imgUrl: nftThumb,
         }
     ];
     // const project3 = [
