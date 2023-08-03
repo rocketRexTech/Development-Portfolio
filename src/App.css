@@ -518,8 +518,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 }
 
+.tab-content a {
+  text-decoration: none;
+}
+
 .tab-pane {
-  justify-content: center;
+justify-content: center;
 }
 
 
@@ -541,6 +545,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbox:hover::before {
   height: 100%;
 }
+
+
 .proj-text {
   position: absolute;
   text-align: center;

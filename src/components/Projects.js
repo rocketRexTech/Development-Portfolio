@@ -1,9 +1,7 @@
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -62,25 +60,29 @@ export const Projects = () => {
                                         </Nav.Item> */}
                                     </Nav>
                                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__bounce " : ""}>
-                                        <Tab.Pane eventKey="first">
-                                            <Row className="tab-pane">
-                                                {
-                                                project1.map((project1, index) => {
-                                                    return (
-                                                    <ProjectCard
-                                                        key={index}
-                                                        {...project1}
-                                                        />
-                                                    )
-                                                })
-                                                }
-                                            </Row>
-                                            <Row>
-                                            <p>Decentralized Real Estate application designed to create a seamless property transaction, utilizing NFT technology.</p>
-                                            </Row>
+                                        <Tab.Pane eventKey="first" >
+                                            <a href='https://realty-app-weblink.vercel.app/' target='_blank'>
+                                                <Row className="tab-pane" >
+                                                    {
+                                                    project1.map((project1, index) => {
+                                                        return (
+                                                        <ProjectCard
+                                                            key={index}
+                                                            {...project1}
+                                                            />
+                                                        )
+                                                    })
+                                                    }
+                                                
+                                                </Row>
+                                                <Row>
+                                                    <p>Decentralized Real Estate application designed to create a seamless property transaction, utilizing NFT technology.</p>
+                                                </Row>
+                                            </a>
                                         </Tab.Pane>
 
                                         <Tab.Pane eventKey="second">
+                                        <a href='https://nft-marketplace-rosy-nine.vercel.app/home' target='_blank'>
                                             <Row className="tab-pane">
                                                 {
                                                 project2.map((project2, index) => {
@@ -93,8 +95,10 @@ export const Projects = () => {
                                                 })
                                                 }
                                             </Row>
-
+                                            <Row>
                                             <p>Create, buy, and sell Nfts in this one-stop-shop marketplace.</p>
+                                            </Row>
+                                        </a>
                                         </Tab.Pane>
 
                                         {/* <Tab.Pane eventKey="third">
